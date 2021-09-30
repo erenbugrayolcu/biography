@@ -53,8 +53,6 @@ body .container .middleContent .cards {
   margin: 0px 21px;
   border-radius: 30px;
   padding-top: 1px;
-  -webkit-transition: 500ms;
-  transition: 500ms;
 }
 
 body .container .middleContent .cards a {
