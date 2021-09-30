@@ -94,14 +94,15 @@ body .container .middleContent .cards p {
   line-height: 40px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   body .container {
     background-color: lightblue;
-    height: auto;
+    width: 400px;
+    height: 1100px;
   }
   body .container .header {
     background: #000;
-    width: 600px;
+    width: 400px;
     height: 80px;
     padding-top: 1px;
   }
@@ -111,8 +112,8 @@ body .container .middleContent .cards p {
     color: #fff;
   }
   body .container .middleContent {
-    width: 600px;
-    height: 940px;
+    width: 400px;
+    height: 1000px;
     margin-top: 15px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -124,9 +125,9 @@ body .container .middleContent .cards p {
   }
   body .container .middleContent .cards {
     background: #000;
-    width: 500px;
-    height: 300px;
-    margin: 5px 30px;
+    width: 380px;
+    height: 350px;
+    margin: 5px 10px;
     border-radius: 30px;
     padding-top: 1px;
   }
@@ -136,8 +137,8 @@ body .container .middleContent .cards p {
   body .container .middleContent .cards .background {
     background: #fff;
     margin-left: 25px;
-    width: 450px;
-    height: 170px;
+    width: 330px;
+    height: 225px;
     border-radius: 20px;
     font-size: 50px;
     border: none;
@@ -147,21 +148,22 @@ body .container .middleContent .cards p {
     margin-top: 20px;
   }
   body .container .middleContent .cards .background h3 {
+    font-size: 50px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 80px;
     color: #000;
   }
   body .container .middleContent .cards h2 {
     text-align: center;
     color: #fff;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 15px;
   }
   body .container .middleContent .cards p {
     text-align: center;
     color: #fff;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 5px;
     padding: 0 10px;
     line-height: 17px;
   }
