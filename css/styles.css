@@ -80,26 +80,6 @@ body .container .middleContent .cards .background h3 {
   color: #000;
 }
 
-body .container .middleContent .cards:hover {
-  margin-top: -50px;
-  -webkit-transition: 500ms;
-  transition: 500ms;
-  background: #fff;
-  color: #000;
-}
-
-body .container .middleContent .cards:hover h2, body .container .middleContent .cards:hover p {
-  color: #000;
-}
-
-body .container .middleContent .cards:hover .background {
-  background: #000;
-}
-
-body .container .middleContent .cards:hover .background h3 {
-  color: #fff;
-}
-
 body .container .middleContent .cards h2 {
   text-align: center;
   color: #fff;
@@ -113,6 +93,79 @@ body .container .middleContent .cards p {
   font-size: 20px;
   margin-top: 20px;
   padding: 0 10px;
-  line-height: 40px;
+  line-height: 45px;
+}
+
+@media only screen and (max-width: 600px) {
+  body .container {
+    background-color: lightblue;
+    height: auto;
+  }
+  body .container .header {
+    background: #000;
+    width: 600px;
+    height: 80px;
+    padding-top: 1px;
+  }
+  body .container .header h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+  }
+  body .container .middleContent {
+    width: 600px;
+    height: 940px;
+    margin-top: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .container .middleContent .cards {
+    background: #000;
+    width: 500px;
+    height: 300px;
+    margin: 5px 30px;
+    border-radius: 30px;
+    padding-top: 1px;
+  }
+  body .container .middleContent .cards a {
+    text-decoration: none;
+  }
+  body .container .middleContent .cards .background {
+    background: #fff;
+    margin-left: 25px;
+    width: 450px;
+    height: 170px;
+    border-radius: 20px;
+    font-size: 50px;
+    border: none;
+    cursor: pointer;
+    padding-top: 1px;
+    color: #000;
+    margin-top: 20px;
+  }
+  body .container .middleContent .cards .background h3 {
+    text-align: center;
+    margin-top: 50px;
+    color: #000;
+  }
+  body .container .middleContent .cards h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  body .container .middleContent .cards p {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 0 10px;
+    line-height: 17px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
