@@ -3,6 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -56,7 +57,12 @@ body .container .middleContent .cards {
   transition: 500ms;
 }
 
-body .container .middleContent .cards button {
+body .container .middleContent .cards a {
+  text-decoration: none;
+}
+
+body .container .middleContent .cards .background {
+  background: #fff;
   margin-left: 25px;
   width: 450px;
   height: 450px;
@@ -64,12 +70,34 @@ body .container .middleContent .cards button {
   font-size: 50px;
   border: none;
   cursor: pointer;
+  padding-top: 1px;
+  color: #000;
+}
+
+body .container .middleContent .cards .background h3 {
+  text-align: center;
+  margin-top: 170px;
+  color: #000;
 }
 
 body .container .middleContent .cards:hover {
   margin-top: -50px;
   -webkit-transition: 500ms;
   transition: 500ms;
+  background: #fff;
+  color: #000;
+}
+
+body .container .middleContent .cards:hover h2, body .container .middleContent .cards:hover p {
+  color: #000;
+}
+
+body .container .middleContent .cards:hover .background {
+  background: #000;
+}
+
+body .container .middleContent .cards:hover .background h3 {
+  color: #fff;
 }
 
 body .container .middleContent .cards h2 {
